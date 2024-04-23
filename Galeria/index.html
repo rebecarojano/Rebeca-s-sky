@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>sunset galery</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li>
+            <h1 class="nombre">Rebeca<span class="justFun">'</span>s <br>sky</h1>
+        </li>
+        <li>
+            <h1 id="info" class="description">This gallery allows you to browse intuitively through a collection of images with an attractive and responsive design. Discover and enjoy the photos!<span class="heart">&lt;3</span></h1>
+        </li>
+        <li>
+            <h1 id="info" class="contact">rojanorebeca1@gmail.com</h1>
+        </li>
+    </ul>
+</nav>
+    <div class="full" id="fullBox">
+        <img src="sunsets/003.jpg" id="full">
+        <span class="idk" onclick="closeFullBox()">×</span>
+    </div>
+    <div class="container" >
+        <div class="gallery"> 
+            <img src="sunsets/003.jpg" onclick="openFull(this.src)">
+            <img src="sunsets/004.jpg" onclick="openFull(this.src)">
+            <img src="sunsets/005.jpg" onclick="openFull(this.src)">
+            <img src="sunsets/006.jpg" onclick="openFull(this.src)">
+            <img src="sunsets/007.jpg" onclick="openFull(this.src)">
+            <img src="sunsets/010.jpg" onclick="openFull(this.src)">
+            <img src="sunsets/008.jpg" onclick="openFull(this.src)">
+            <img src="sunsets/009.jpg" onclick="openFull(this.src)">
+            <img src="sunsets/002.jpg" onclick="openFull(this.src)">
+            <img src="sunsets/011.jpg" onclick="openFull(this.src)">
+            <img src="sunsets/012.jpg" onclick="openFull(this.src)">
+            <img src="sunsets/013.jpg" onclick="openFull(this.src)">
+            <img src="sunsets/014.jpg" onclick="openFull(this.src)">
+            <img src="sunsets/015.jpg" onclick="openFull(this.src)">
+            <img src="sunsets/016.jpg" onclick="openFull(this.src)">
+            <img src="sunsets/017.jpg" onclick="openFull(this.src)">
+            <img src="sunsets/018.jpg" onclick="openFull(this.src)">
+            <img src="sunsets/019.jpg" onclick="openFull(this.src)">
+            <img src="sunsets/020.jpg" onclick="openFull(this.src)">
+            <img src="sunsets/021.jpg" onclick="openFull(this.src)">
+            <img src="sunsets/022.jpg" onclick="openFull(this.src)">
+            <img src="sunsets/001.jpg" onclick="openFull(this.src)">
+        </div>
+        <div id="lightbox" class="oculto">
+            <span class="cerrar" onclick="cerrarImagen()">×</span>
+            <img id="imagen-ampliada" src="">
+            <div id="caption"></div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
